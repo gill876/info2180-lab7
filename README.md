@@ -1,2 +1,2 @@
-# info2180-lab7
-INFO2180 lab 7 that uses php, SQL and ajax.
+# INFO2180 Lab 7
+Using PHP and SQL
