@@ -1,1 +1,15 @@
 /* Add your own styles */
+html{
+    font-family: 'Hepta Slab', serif;
+}
+
+table.countries-table{
+    border: 1px solid #000000;
+}
+
+table.countries-table td,
+table.countries-table th{
+    border: 1px solid #000000;
+    /*margin-top: 0px;
+    padding-top: 0px;*/
+}
