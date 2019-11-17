@@ -13,3 +13,14 @@ table.countries-table th{
     /*margin-top: 0px;
     padding-top: 0px;*/
 }
+
+table.countries-cities{
+    border: 1px solid #000000;
+}
+
+table.countries-cities td,
+table.countries-cities th{
+    border: 1px solid #000000;
+    /*margin-top: 0px;
+    padding-top: 0px;*/
+}

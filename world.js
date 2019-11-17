@@ -1,14 +1,15 @@
 $(document).ready(function(){
     //console.log("hello world");
     
-    function requestCountry(){
+    function requestCountry(city = ""){
         let countryI = $("#country").val();
         countryI = countryI.trim();
         
         $.ajax("world.php", {
             method: 'GET',
             data: {
-                country: countryI
+                country: countryI,
+                context: city
             }
         }).done(function(response){
             let parseHTML = response;
@@ -26,5 +27,9 @@ $(document).ready(function(){
         if(e.which == 13){
             requestCountry();
         }
+    });
+    
+    $("#lookup-cities").click(function(){
+        requestCountry("cities");
     });
 });
