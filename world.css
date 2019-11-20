@@ -1,26 +1,41 @@
 /* Add your own styles */
 html{
     font-family: 'Hepta Slab', serif;
+    background-color: #dcedc1;
 }
 
-table.countries-table{
+table{
+    border: 1px solid #000000;
+    background-color: #def48b;
+}
+
+table td,
+table th{
+    border: 1px solid #000000;
+    /*margin-top: 0px;
+    padding-top: 0px;*/
+}
+
+table{
     border: 1px solid #000000;
 }
 
-table.countries-table td,
-table.countries-table th{
+table thead{
+    background-color: #f0a364;
+}
+
+table td,
+table th{
     border: 1px solid #000000;
     /*margin-top: 0px;
     padding-top: 0px;*/
 }
 
-table.countries-cities{
-    border: 1px solid #000000;
+table tr:nth-child(even) {
+  background: #7ff037;
 }
 
-table.countries-cities td,
-table.countries-cities th{
-    border: 1px solid #000000;
-    /*margin-top: 0px;
-    padding-top: 0px;*/
+caption{
+    padding-top: 1.8em;
+    padding-bottom: 1.8em;
 }
